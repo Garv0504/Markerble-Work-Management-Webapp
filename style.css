@@ -57,8 +57,19 @@
     height: fit-content;
     width: 20vw;
     padding: 10px 20px;
-    background-color: azure;
+    background-color: aliceblue;
     border-radius: 25px;
+    cursor: pointer;
+    transition: all ease-out 0.15s;
+}
+.left ul li:hover{
+    background-color: black;
+}
+.left ul li:hover a{
+    color: white;
+}
+.left ul li:hover i{
+    color: white;
 }
 .left ul li a{
     color: black;
@@ -70,6 +81,13 @@
     text-decoration: none;
     color: white;
     border-radius: 15px;
+}
+.add{
+    background-color: skyblue;
+    padding: 4px 10px;
+    text-decoration: none;
+    color: black;
+    height: fit-content;
 }
 .feed{
     height: 100%;
@@ -87,4 +105,10 @@
 }
 .card-body{
     background-color: #f6f6f6;
+}
+.round{
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    background-color: green;
 }
