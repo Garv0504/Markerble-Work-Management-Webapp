@@ -11,6 +11,17 @@
     background-color: #181825;
     color: whitesmoke;
 }
+
+@media (max-width: 991.98px) {
+    /* Custom styles for smaller screens */
+    .navbar-nav .nav-item .nav-link {
+      text-align: center;
+    }
+    .navbar-nav {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
 .navbar{
     background-color: #181825;
     border-bottom: 0.2px solid #333333;
@@ -137,9 +148,6 @@
     overflow: hidden;
     border: none;
 }
-.card-body{
-    /* background-color: #f6f6f6; */
-}
 .round{
     height: 2.5vw;
     width: 2.5vw;
@@ -150,3 +158,5 @@
     font-family: head;
     font-weight: 800;
 }
+
+
